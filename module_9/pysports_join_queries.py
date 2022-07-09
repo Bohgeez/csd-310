@@ -7,9 +7,8 @@
 
 # import statements
 
-from errno import errorcode
 import mysql.connector
-
+from mysql.connector import errorcode
 
 #database config object
 config = {
